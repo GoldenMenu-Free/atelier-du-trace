@@ -1,19 +1,14 @@
-L'ATELIER DU TRACÉ : MISE EN LIGNE DU SITE
+L'ATELIER DU TRACÉ : PASSAGE SUR atelier-du-trace.fr
 
-1. Sur GitHub, renommez le dépôt "outils-freelance" en "atelier-du-trace"
-   (Settings > General > Repository name). L'adresse du site devient :
-   https://goldenmenu-free.github.io/atelier-du-trace/
-   Le sitemap, le robots.txt et les balises canonical utilisent déjà cette adresse.
+Ce zip contient les pages du site mises à jour pour la nouvelle adresse.
+Il ne contient PAS liens.js : vos liens Payhip et newsletters restent tels quels.
 
-2. Remplacez tout le contenu du dépôt par le contenu de ce dossier
-   (gardez les dossiers img, fonts, en et telechargements).
-
-3. Ouvrez liens.js et collez les liens Payhip de chaque produit,
-   ainsi que l'adresse de vos newsletters Beehiiv et Substack.
-   C'est le seul fichier à modifier pour les liens.
-
-4. Les prix affichés sur les cartes sont dans index.html, ecriture-adulte.html,
-   points-a-relier.html et en/index.html : alignez-les sur vos prix Payhip.
-
-5. Une fois en ligne, déclarez le sitemap dans Google Search Console :
-   https://goldenmenu-free.github.io/atelier-du-trace/sitemap.xml
+1. GitHub > dépôt > Settings > Pages > Custom domain : atelier-du-trace.fr > Save.
+2. Envoyez le contenu de ce zip dans le dépôt (remplacez les fichiers existants).
+   Le fichier CNAME garde le domaine même si vous remplacez tout le dépôt.
+3. Chez OVHcloud, zone DNS : 4 enregistrements A (@) vers
+   185.199.108.153 / 185.199.109.153 / 185.199.110.153 / 185.199.111.153
+   et un CNAME "www" vers goldenmenu-free.github.io.
+4. Attendez la propagation (jusqu'à 24 h), puis cochez "Enforce HTTPS".
+5. Google Search Console : ajoutez atelier-du-trace.fr, puis le sitemap
+   https://atelier-du-trace.fr/sitemap.xml
