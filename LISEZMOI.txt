@@ -1,0 +1,19 @@
+L'ATELIER DU TRACÉ : MISE EN LIGNE DU SITE
+
+1. Sur GitHub, renommez le dépôt "outils-freelance" en "atelier-du-trace"
+   (Settings > General > Repository name). L'adresse du site devient :
+   https://goldenmenu-free.github.io/atelier-du-trace/
+   Le sitemap, le robots.txt et les balises canonical utilisent déjà cette adresse.
+
+2. Remplacez tout le contenu du dépôt par le contenu de ce dossier
+   (gardez les dossiers img, fonts, en et telechargements).
+
+3. Ouvrez liens.js et collez les liens Payhip de chaque produit,
+   ainsi que l'adresse de vos newsletters Beehiiv et Substack.
+   C'est le seul fichier à modifier pour les liens.
+
+4. Les prix affichés sur les cartes sont dans index.html, ecriture-adulte.html,
+   points-a-relier.html et en/index.html : alignez-les sur vos prix Payhip.
+
+5. Une fois en ligne, déclarez le sitemap dans Google Search Console :
+   https://goldenmenu-free.github.io/atelier-du-trace/sitemap.xml
