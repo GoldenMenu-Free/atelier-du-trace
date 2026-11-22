@@ -8,26 +8,30 @@ window.LIENS = {
   boutique:      "https://payhip.com/GoldenMenu",
 
   // Produits en français
-  cahier1:       "",   // Cahier 1 d’écriture : à recopier depuis votre ancien fichier
-  cahier2:       "",   // Cahier 2 d’écriture : à recopier depuis votre ancien fichier
+  cahier1:       "https://payhip.com/b/v7IWs",
+  cahier2:       "https://payhip.com/b/yVxUK",
   cahier3:       "https://payhip.com/b/Ai5OT",
   dessin:        "https://payhip.com/b/SeXsb",
   graphisme:     "https://payhip.com/b/od6t3",
-  points:        "",   // Points à relier chiffres et lettres : à recopier depuis votre ancien fichier
+  points:        "https://payhip.com/b/45Hq3",
   noel:          "https://payhip.com/b/lCh2R",
 
   // Products in English
-  cahier1_en:    "",   // Workbook 1: copy from your old file
-  cahier2_en:    "",   // Workbook 2: copy from your old file
+  cahier1_en:    "https://payhip.com/b/TZndl",
+  cahier2_en:    "https://payhip.com/b/5BtSr",
   cahier3_en:    "https://payhip.com/b/inVdX",
   dessin_en:     "https://payhip.com/b/ibl8r",
   graphisme_en:  "https://payhip.com/b/n6t7q",
-  dots_en:       "",   // Dot to dot: copy from your old file
+  dots_en:       "https://payhip.com/b/eZKcN",
   noel_en:       "https://payhip.com/b/GoENu",
 
+  // Pages offertes : lien du produit gratuit sur Payhip (sinon, téléchargement direct du PDF)
+  offert:        "https://payhip.com/b/CZ1lv",
+  offert_en:     "https://payhip.com/b/D7xyk",
+
   // Newsletters
-  newsletter_fr: "",   // à recopier depuis votre ancien fichier
-  newsletter_en: ""    // copy from your old file
+  newsletter_fr: "",   // votre page Beehiiv
+  newsletter_en: ""    // your Substack page
 };
 
 document.querySelectorAll("[data-lien]").forEach(function (a) {
