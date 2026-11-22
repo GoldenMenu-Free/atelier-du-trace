@@ -134,3 +134,7 @@ input,select,textarea{width:100%;font:inherit;color:var(--ink);background:var(--
 .hero h1 .script{line-height:1.6;margin-bottom:.2rem}
 .steps li strong{display:inline-block;margin-left:.4rem}
 @media (max-width:40rem){header.site{position:static}}
+:root{--blue:#3b6ea5;--blue-l:#e8eff7}
+@media (prefers-color-scheme:dark){:root{--blue:#8db4de;--blue-l:#1b2a3d}}
+.collection.blue{background:var(--blue-l)}
+.tag.blue{background:var(--blue-l);color:var(--blue)}
