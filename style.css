@@ -2,13 +2,13 @@
 @font-face{font-family:"Poppins";src:url(fonts/poppins-400.woff) format("woff");font-weight:400;font-display:swap}
 @font-face{font-family:"Poppins";src:url(fonts/poppins-500.woff) format("woff");font-weight:500;font-display:swap}
 @font-face{font-family:"Poppins";src:url(fonts/poppins-700.woff) format("woff");font-weight:600 700;font-display:swap}
-@font-face{font-family:"Playwrite FR Trad";src:url(fonts/playwrite-fr.woff) format("woff");font-display:swap}
+@font-face{font-family:"Marelle";src:url(fonts/marelle.woff) format("woff");font-display:swap}
 @font-face{font-family:"Playwrite US Trad";src:url(fonts/playwrite-us.woff) format("woff");font-display:swap}
 :root{
   --ink:#1f2a44;--muted:#5a6680;--paper:#fffdf9;--card:#ffffff;--field:#f2f5f9;--line:#dfe5ee;
   --sage:#2f6f5e;--sage-l:#e6f0ec;--peach:#e07a3f;--peach-l:#fdf1e8;--accent:var(--sage);
   --font:"Poppins",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --script:"Playwrite FR Trad",cursive;
+  --script:"Marelle",cursive;
   --radius:14px;--shadow:0 10px 30px rgba(31,42,68,.08);
 }
 html[lang="en"]{--script:"Playwrite US Trad",cursive}
@@ -138,3 +138,5 @@ input,select,textarea{width:100%;font:inherit;color:var(--ink);background:var(--
 @media (prefers-color-scheme:dark){:root{--blue:#8db4de;--blue-l:#1b2a3d}}
 .collection.blue{background:var(--blue-l)}
 .tag.blue{background:var(--blue-l);color:var(--blue)}
+.hero h1 .script{padding-bottom:.45em}
+.collection .script{padding-bottom:.5em}
