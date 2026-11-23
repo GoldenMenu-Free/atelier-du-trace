@@ -5,7 +5,7 @@
   Tant qu'un lien newsletter est vide, le bouton correspondant reste caché.
 */
 window.LIENS = {
-  boutique:      "https://payhip.com/GoldenMenu",
+  boutique:      "https://payhip.com/atelierdutrace",
 
   // Produits en français
   cahier1:       "https://payhip.com/b/v7IWs",
@@ -24,6 +24,14 @@ window.LIENS = {
   graphisme_en:  "https://payhip.com/b/n6t7q",
   dots_en:       "https://payhip.com/b/eZKcN",
   noel_en:       "https://payhip.com/b/GoENu",
+
+  // Packs
+  pack_ecriture:       "https://payhip.com/b/S0Mqy",
+  pack_enfants:        "https://payhip.com/b/IeGXJ",
+  pack_atelier:        "https://payhip.com/b/WD8pC",
+  pack_handwriting_en: "https://payhip.com/b/6IvVL",
+  pack_kids_en:        "https://payhip.com/b/pWI9R",
+  pack_studio_en:      "https://payhip.com/b/FnE0t",
 
   // Pages offertes : lien du produit gratuit sur Payhip (sinon, téléchargement direct du PDF)
   offert:        "https://payhip.com/b/CZ1lv",

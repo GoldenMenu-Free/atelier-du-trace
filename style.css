@@ -140,3 +140,9 @@ input,select,textarea{width:100%;font:inherit;color:var(--ink);background:var(--
 .tag.blue{background:var(--blue-l);color:var(--blue)}
 .hero h1 .script{padding-bottom:.45em}
 .collection .script{padding-bottom:.5em}
+.tag.gold{background:#fbf1d6;color:#8a6410}
+@media (prefers-color-scheme:dark){.tag.gold{background:#3a2f12;color:#f2cf73}}
+.card.pack{border-color:#e8d8a8}
+.lang-note{margin-top:2rem}
+.card .meta{gap:.5rem;flex-wrap:wrap}
+.card .price,.card .btn{white-space:nowrap}
