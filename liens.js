@@ -15,6 +15,7 @@ window.LIENS = {
   graphisme:     "https://payhip.com/b/od6t3",
   points:        "https://payhip.com/b/45Hq3",
   noel:          "https://payhip.com/b/lCh2R",
+  cursive_enfants: "https://payhip.com/b/VUsL3",
 
   // Products in English
   cahier1_en:    "https://payhip.com/b/TZndl",
@@ -24,6 +25,7 @@ window.LIENS = {
   graphisme_en:  "https://payhip.com/b/n6t7q",
   dots_en:       "https://payhip.com/b/eZKcN",
   noel_en:       "https://payhip.com/b/GoENu",
+  cursive_kids_en: "https://payhip.com/b/rCHKg",
 
   // Packs
   pack_ecriture:       "https://payhip.com/b/S0Mqy",
