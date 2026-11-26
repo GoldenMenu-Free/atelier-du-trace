@@ -146,3 +146,10 @@ input,select,textarea{width:100%;font:inherit;color:var(--ink);background:var(--
 .lang-note{margin-top:2rem}
 .card .meta{gap:.5rem;flex-wrap:wrap}
 .card .price,.card .btn{white-space:nowrap}
+.prose{max-width:46rem}
+.prose h2{margin-top:2.6rem}
+.prose h3{margin-top:1.6rem;font-size:1.15rem}
+.prose ul{padding-left:1.2rem}
+.prose li{margin:.35rem 0}
+.prose .steps{max-width:none}
+.sources{font-size:.9rem;color:var(--muted)}
