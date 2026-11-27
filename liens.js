@@ -27,6 +27,9 @@ window.LIENS = {
   noel_en:       "https://payhip.com/b/GoENu",
   cursive_kids_en: "https://payhip.com/b/rCHKg",
 
+  dessin2:         "https://payhip.com/b/paC4x",
+  dessin2_en:      "https://payhip.com/b/dJKmr",
+
   // Packs
   pack_ecriture:       "https://payhip.com/b/S0Mqy",
   pack_enfants:        "https://payhip.com/b/IeGXJ",
@@ -40,8 +43,8 @@ window.LIENS = {
   offert_en:     "https://payhip.com/b/D7xyk",
 
   // Newsletters
-  newsletter_fr: "",   // votre page Beehiiv
-  newsletter_en: ""    // your Substack page
+  newsletter_fr: "https://goldens-newsletter-eaf0a3.beehiiv.com/subscribe",   // votre page Beehiiv
+  newsletter_en: "https://goldenmenu.substack.com/subscribe"    // your Substack page
 };
 
 document.querySelectorAll("[data-lien]").forEach(function (a) {
