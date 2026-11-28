@@ -154,3 +154,10 @@ input,select,textarea{width:100%;font:inherit;color:var(--ink);background:var(--
 .prose .steps{max-width:none}
 .sources{font-size:.9rem;color:var(--muted)}
 table.t td{border-bottom:1px solid var(--line);padding:.45rem .6rem}
+.crayon-band{display:grid;grid-template-columns:1fr 1.15fr;gap:2rem;align-items:center;background:#fff7e6;border:2px solid #f2c14e;border-radius:22px;padding:1.8rem 2rem;margin:2rem 0}
+.crayon-band h2{margin-top:.2rem}
+.crayon-band .cb-img svg,.guide-fig svg{width:100%;height:auto;display:block}
+.guide-fig{background:#fff;border-radius:18px;box-shadow:var(--shadow);margin:1rem 0;overflow:hidden}
+.guide-list{padding-left:1.2rem;line-height:1.7}
+@media (max-width:760px){.crayon-band{grid-template-columns:1fr;padding:1.3rem}}
+@media (prefers-color-scheme:dark){.crayon-band{background:#2a2414;border-color:#8a6a1a}}
