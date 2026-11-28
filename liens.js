@@ -30,6 +30,15 @@ window.LIENS = {
   dessin2:         "https://payhip.com/b/paC4x",
   dessin2_en:      "https://payhip.com/b/dJKmr",
 
+  cursive_gaucher:     "https://payhip.com/b/A4Z7T",
+  c2_gaucher:          "https://payhip.com/b/gr1Py",
+  cursive_lefty_en:    "https://payhip.com/b/lNoqB",
+  pack_gaucher_enfant: "https://payhip.com/b/CXE5s",
+  pack_gaucher_adulte: "https://payhip.com/b/eZ1cL",
+  fiche_gauchers:      "https://payhip.com/b/gaFJ5",
+  fiche_gauchers_en:   "https://payhip.com/b/mi5Lh",
+  fiche_crayon:        "https://payhip.com/b/whXR2",
+
   // Packs
   pack_ecriture:       "https://payhip.com/b/S0Mqy",
   pack_enfants:        "https://payhip.com/b/IeGXJ",
